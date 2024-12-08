@@ -1,0 +1,11 @@
+name: issue2
+on: 
+  issues:
+    types: 
+      - opend
+jobs:
+  issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: trigger when issue come
+        run: echo " issue found" 
