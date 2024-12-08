@@ -22,4 +22,10 @@ jobs:
       - name: goodbye world
         run: echo "goodbye world"
         shell: bash
+  goodbye2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: goodbye2 world
+        run: echo "goodbye2 world"
+        shell: bash
 
