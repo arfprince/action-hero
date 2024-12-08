@@ -32,5 +32,4 @@ jobs:
             heart
             hooray
             laugh
-      - name: ck comnt id
-        run: echo ${{ github.event.issue.user.id }}
+  
