@@ -25,9 +25,12 @@ jobs:
           reactions: '+1'
       - name: Add reactions
         uses: peter-evans/create-or-update-comment@v4
+      - name: ck comt id
         with:
           comment-id:  ${{ github.event.issue.user.id }}
           reactions: |
             heart
             hooray
             laugh
+      - name: ck comnt id
+        run: echo ${{ github.event.issue.user.id }}
