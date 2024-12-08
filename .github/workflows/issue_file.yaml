@@ -26,7 +26,7 @@ jobs:
       - name: Add reactions
         uses: peter-evans/create-or-update-comment@v4
         with:
-          comment-id:  ${{ github.event.user.id }}
+          comment-id:  ${{ github.event.issue.user.id }}
           reactions: |
             heart
             hooray
